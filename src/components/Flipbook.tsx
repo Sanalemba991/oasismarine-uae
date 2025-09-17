@@ -246,7 +246,7 @@ const BlogFlipbook = () => {
   }, [currentPage, isFlipbookReady, prevPage, nextPage]);
 
   return (
-    <div className="min-h-screen w-full flex flex-col items-center justify-center relative py-8 px-4 overflow-hidden overscroll-none">
+    <div className=" w-full flex flex-col items-center justify-center relative py-8 px-4 overflow-hidden overscroll-none">
       <div className="max-w-4xl mx-auto text-center py-16 px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
